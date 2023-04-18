@@ -1,0 +1,136 @@
+.root{
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaa ;
+    --color10 :#9eaeaa ;
+}
+.ContenedorCompra, .ContenedorVisualizar, .Comentarios{
+    width: 110%;
+    margin-left: -3%;
+    height: 600px;    
+    display: flex;
+    margin-top: 2%;    
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+}
+
+.Comentarios{
+    margin-left: -2%;
+    margin: auto;    
+    width: 80%;    
+    height: 400px;
+}
+
+.ContenedorVisualizar{
+    height: 800px;    
+}
+
+
+.CajaGrande1 .CajaGrande1 h4,
+.CajaGrande1 h3,
+.CajaGrande1 p {
+    width: 100%;
+    height: 20%;    
+    color: #181818;
+    text-align: center;    
+}
+
+.ContenedorImg, .ContenedorinforCompra{
+    width: 25%;
+    height: 100%;
+    margin: 0% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.ContenedorinforCompra{
+    width: 100%;    
+}
+
+.CajaGrande1, .CajaGrande2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2% 0%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;    
+}
+
+.CajaGrande2{
+    align-items: none;    
+    height: 70%;
+}
+
+.CajaGrande2 .CajaGrande2 h4,
+.CajaGrande2 h3,
+.CajaGrande2 p {
+    width: 100%;
+    height: 20%;    
+    color: #181818;
+    text-align: center;    
+}
+
+.CajaGrande1 svg:hover{
+    cursor: pointer;
+}
+
+.ContendorCompraOpciones{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;    
+}
+
+.ContendorCompraOpciones button{
+    margin-left: 5%;    
+    width: 50%;
+}
+
+.ContenedorinforCompra h1{
+    color: #181818;
+}
+
+.Cajita2{
+    width: 20%;
+    height: 30%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: auto;
+    /* background-color: green; */
+}
+
+
+.Cajita2 svg{  
+    width: auto;
+    height: 20%;   
+}
+
+
+.Cajita1{
+    /* background-color: red; */
+    padding: 2%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cajita1 p{
+    height: 80%;
+    overflow-y: scroll;
+}

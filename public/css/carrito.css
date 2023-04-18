@@ -1,0 +1,307 @@
+.root{
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaaee ;
+    --color10 :#9eaeaaec ;
+}
+.ContenedorCompras,
+.Detalle {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color9);
+    margin: 5% auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.Detalle {
+    height: auto;    
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.Detalle .BoxSvg {
+    width: 100%;
+    height: 10%;
+    border-bottom-width: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.BoxSvg p {
+    margin-top: 1.5%;
+    font-size: 18px;
+    color: #181818;
+}
+
+.BoxSvg svg {
+    margin: 2% 2%;
+    cursor: pointer;
+}
+
+.BoxDetalle {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.BoxDetalle .imgDetalle {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    background-image: url('../imgs/Superman.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: blue; */
+}
+
+.BoxInformacion {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;    
+    width: 55%;
+    height: 100%;
+    padding: 1%;
+    /* background-color: pink; */
+}
+
+.Cajita{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.BoxDetalle .BoxInformacion h4,
+.BoxInformacion h3,
+.BoxInformacion p {
+    width: 100%;
+    height: 10%;
+    color: #181818;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.BoxInformacion p {
+    font-size: 18px;
+}
+
+.OpcionesBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    font-weight: bold;
+    min-height: 50px;
+    color: #181818;
+    /* background-color: blue; */
+}
+
+.OpcionesBox svg{
+cursor: pointer;
+}
+
+
+.opciones {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red;         */
+}
+
+.opciones p{
+    color: #181818;
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    /* background-color: #3496db; */
+}
+
+.opciones input{    
+    height: 25px;
+    width: 25px;
+    background-color: #181818;
+    border-radius: 10%;    
+    margin-bottom: 2%;
+}
+
+.opciones h2, .opciones label{
+    color: #181818;
+}
+
+.BoxTotal {
+    margin: 2% auto;
+    height: 10%;
+    width: 95%;
+    background-color: #f2f2f2af;
+    display: flex;
+    flex-direction: row;
+}
+
+.BoxTotal .Box2Total p,
+.BoxTotal .Box1Total p {
+    color: #181818;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.BoxTotal .Box1Total p {
+    margin-right: 0%;
+    margin-left: 5%;
+}
+
+.BoxTotal .Box1Total,
+.BoxTotal .Box2Total {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.BoxTotal .Box2Total {
+    /* background-color: blue;     */
+    justify-content: flex-end;
+}
+
+.ContenedorCompras .Caja1,
+.Caja2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    color: #181818;
+    align-items: center;
+}
+
+.Caja1 {
+    font-size: 20px;
+}
+
+.Caja1 p {
+    margin-left: 5%;
+}
+
+.Caja2 {
+    justify-content: flex-end;
+}
+
+.Caja2 a {
+    text-decoration: underline;
+    font-size: 18px;
+    margin-right: 5%;
+    color: #181818;
+    transition: all 800ms;
+}
+
+.Caja2 a:hover {
+    color: #3496db;
+}
+
+#SVG{
+    width: 100px;
+    height: 50px;
+    /* background-color: red; */
+}
+
+#SVG2{
+    width: 60px;
+    height: 25px;
+    /* background-color: red; */
+}
+
+#SVG3{
+    width: 100px;
+    height: 100px;
+    background-image: url('../Icons/PyxelPay.png');
+    background-size: cover;    
+}
+
+#Trash:hover{
+    fill: red;
+}
+
+.BotonTramite {
+    width: 100%;
+    height: 10%;
+    margin: 2% 0%;
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnCompra, .btnCompraCancelar {
+    align-items: center;
+    appearance: none;
+    background-color: #fcfcfda8;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #181818;
+    cursor: pointer;
+    display: inline-flex;
+    /* font-family: "JetBrains Mono",monospace; */
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 3%;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.btnCompra:focus, .btnCompraCancelar:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btnCompra:hover, .btnCompraCancelar:hover {
+    /* background-color: #3496db; */
+    /* color: white; */
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.btnCompra:active, .btnCompraCancelar:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+/* Seccion Penultima */
+

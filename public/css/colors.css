@@ -1,0 +1,29 @@
+:root{
+  --primary_text: #fff;
+  --primary_bg: #333;
+  --primary_bg300: #777;
+  --secondary_text: #333;
+  --secondary_bg: #fff;
+  --seconady_bg300: #AAA;
+
+  --primary_action_bg: #2b8251;
+  --primary_action_tx: #fff;
+  --secondary_action_bg: #2b5c82;
+  --secondary_action_txt: #fff;
+
+  --alert: #c21010;
+  --warning: #bb980d;
+  --info: #3236ae;
+
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaa ;
+    --color10 :#9eaeaa ;
+
+}

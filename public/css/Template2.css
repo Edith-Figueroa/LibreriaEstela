@@ -1,0 +1,127 @@
+.root{
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaa ;
+    --color10 :#9eaeaa ;
+}
+.Fondo{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    display: flex;    
+    flex-direction: column;       
+    border-radius: 10px;    
+}
+
+.Titulo{
+    position: relative;
+    color: white;
+    margin: 2% auto;
+    /* background-color: red; */
+    width: 90%;
+    height: 20%;    
+    text-align: center;
+    color: white; 
+    text-shadow: 0 0 10px #181818;
+}
+
+.Titulo h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.Titulo h1{    
+    font-size: 65px;
+    letter-spacing: 25px;
+}
+
+.InformacionPublicidad{
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.Informacion{
+    margin: 0% 2%;
+    width: 45%;
+    height: 100%;
+    overflow-y: scroll;
+    /* background-color: blue;         */
+    color: white;
+    padding: 2%;
+}
+
+.Informacion p{
+    position: relative;
+    height: 40%;    
+    overflow-y: scroll;
+    font-size: 18px;
+}
+
+.Informacion h1{    
+    font-size: 150px;    
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    text-align: center;
+    text-decoration: line-through;    
+}
+
+.Informacion h3{
+    width: 100%;
+    height: 10%;
+    font-size: 43px;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.Continuar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;    
+    width: 45%;
+    height: 50%;    
+    margin-top: 15%;
+    transition: all 400ms;
+    /* background-color: green; */
+}
+
+.Continuar:hover{
+    transform: scale(1.05, 1.05);
+    color: white;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}   
+
+.Continuar svg{
+    width: 40px;
+    height: 40px;    
+    fill: #aaa;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.Continuar svg:hover{
+    fill: white;
+}
+
+.btnTemp{
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    transition: all 800ms;
+}
+
+.btnTemp:hover{
+    background-color: #181818;
+}   

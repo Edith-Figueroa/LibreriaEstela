@@ -1,0 +1,16 @@
+.root{
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaa ;
+    --color10 :#9eaeaa ;
+}
+
+body {
+  background-color: #fff !important;
+}

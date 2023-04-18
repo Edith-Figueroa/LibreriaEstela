@@ -1,0 +1,503 @@
+* {
+    font-family: 'Abel', sans-serif;
+}
+
+:root {
+    --MSJHeader: -100px;
+    --playAnimation: paused;
+    --MSJModal: -600px;
+
+    --Margin-left: 0%;
+    --backgorund-Color: transparent;
+    --Border-color: red;
+    --Color: black;
+    --ColorHover: #3498db;
+    --Margin-rigth: 0%;
+    --color1 : #99cccc ;
+    --color2 : #a8bdc2 ;
+    --color3 : #b8aeb8 ;
+    --color4 : #c79ead ;
+    --color5 : #d78fa3d0 ;
+    --color6 : #eeaeaa ;
+    --color7 : #daaeaa ;
+    --color8 : #c6aeaa;
+    --color9 : #b2aeaa ;
+    --color10 :#9eaeaa ;
+}
+
+.Header {
+    position: fixed;
+    top: 0%;
+    display: flex;
+    width: 101%;
+    /* margin: -2%; */
+    height: 70px;
+    background-color: var(--color1);
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.Logo {
+    display: flex;
+    color: white;
+    width: 15%;
+    height: 100%;
+    /* background-color: red;      */
+    font-family:'Courier New', Courier, monospace !important;
+}
+
+.Logo a {
+    margin: auto 10%;
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.Logo svg {
+    cursor: pointer;
+    margin: 0% 2%;
+    transition: all 200ms;
+    background-color: #3496db;
+    margin: 1% 1%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    fill: white;
+}
+
+.Logo svg:hover {
+    color: white;
+}
+
+
+.MSJ,
+.BarraBusqueda {
+    position: absolute;
+    right: 0%;
+    width: 700px;
+    margin: 0.4% 0%;
+    margin-right: 30%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+
+.BarraBusqueda {
+    width: 300px;
+    margin-right: 4%;
+    /* background-color: red; */
+}
+
+.BarraBusqueda input {
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 85%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.BarraBusqueda svg {
+    fill: white;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* Modificacion de los iconos de librero y de carretia */
+.MSJ svg {
+    fill: white;
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    margin-right: 10%;
+    transition: all 400ms;
+}
+
+#SvgBooks {
+    margin-right: 5%;
+}
+
+#SvgFavorites {
+    margin-left: 5%;
+}
+
+svg:hover,
+#SvgBooks:hover,
+#SvgCarrito:hover {
+    fill: #3496db;
+}
+
+.ContenidoLibro2 svg:hover {
+    fill: #3496db;
+    cursor: pointer;
+}
+
+.MSJ p {
+    transition: all 800ms;
+    font-size: 18px;
+    margin-top: 2%;
+    transform: translateY(var(--MSJHeader));
+    text-transform: uppercase;
+}
+
+.burbuja,
+.burbuja2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    right: 0%;
+    margin-right: 2.5%;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.burbuja2 {
+    margin-right: 2.5%;
+}
+
+.burbuja p,
+.burbuja2 p {
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 60%;
+    font-size: 15px;
+    transform: translateY(0);
+}
+
+.burbuja2 p {
+    margin-right: 5%;
+}
+
+.Modal {
+    position: absolute;
+    right: 0%;
+    width: 1000px;
+    height: 550px;
+    margin: 0.4% 0%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    color: white;
+    background-color: var(--color5);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: all 800ms;
+    z-index: 0;
+    transform: translateY(var(--MSJModal));
+}
+
+.Acciones,
+.Acciones2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    text-transform: uppercase;
+    transition: all 800ms;
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.Acciones2 {
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    box-shadow: rgba(255, 255, 255, 0.06) 0px 2px 4px 0px inset;
+    /* background-color: blue; */
+}
+
+.TituloLibro {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.Acciones svg {
+    fill: white;
+    transition: all 800ms;
+    cursor: pointer;
+}
+
+.Acciones svg:hover {
+    fill: #3496db;
+}
+
+#btnFavorite {
+    position: absolute;
+    right: 0%;
+    margin-right: 2%;
+}
+
+#btnFavorite:hover {
+    fill: red;
+}
+
+.ContenedorContenido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 68%;
+    padding: 1%;
+    /* background-color: red; */
+    margin: 0% auto;
+}
+
+
+.ContenidoLibro2,
+.ContenidoInformacionModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 62%;
+    padding: 1%;
+    /* background-color: blue; */
+}
+
+/* Tamaño de Letra de detalles de libros*/
+#txtContenido {
+    overflow-y: scroll;
+    font-size: 2rem;
+    /* background-color: red; */
+}
+
+.ContenidoLibro2 {
+    width: 100%;
+    height: 38%;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+
+.ContenedorContenido svg {
+    fill: white;
+}
+
+
+/* LOGIN */
+
+.ContenedorLogin {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 800px;
+    margin: 5% 2%;
+    background-color: transparent;
+}
+
+.ContenedorImagen {
+    width: 50%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    transition: all 800ms;
+    background-image: url('../imgs/portada1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ContenedorImagen img {
+    width: auto;
+    height: auto;
+}
+
+.ContenedorFormulario {
+    width: 50%;
+    height: 80%;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #181818;
+    background-color: rgba(255, 255, 255, 0.637);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: var(--Margin-left);
+    transition: all 800ms;
+    z-index: 1;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Box h1 {
+    margin-top: 4.1%;
+}
+
+
+.TextBox {
+    width: 80%;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: #181818;
+    border-bottom: 2px solid #181818;
+    font-size: 18px;
+    outline: none;
+}
+
+.Formulario {
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+    padding: 1%;
+    margin-left: 20%;
+    /* background-color: #181818; */
+}
+
+.Box25 {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    color: #181818;
+   
+    background-color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3% auto;
+    transition: all 800ms;
+}
+
+
+.Formulario2 {
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+}
+
+.Form2 {
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    margin-left: 15%;
+    /* background-color: #3496db; */
+}
+
+.Boton,
+.Boton1,
+.Boton2,
+.Boton3 {
+    width: 35%;
+    height: 20%;
+    border: none;
+    background-color: var(--color4);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5% 2%;
+    transition: all 400ms;
+}
+
+.Boton1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.Boton2,
+.Boton3 {
+    height: 20%;
+}
+
+.Boton3 {
+    background-color: transparent;
+    color: var(--Color);
+    border: 1px solid black;
+    border-color: var(--Border-color);
+}
+
+.Boton:hover,
+.Boton1:hover,
+.Boton2:hover {
+    background-color: #9ebcae;
+}
+
+.Boton3:hover {
+    background-color: rgba(255, 0, 0, 0.616);
+    color: white;
+    border: none;
+}
+
+
+.Correos {
+    margin-top: 2%;
+    width: 50%;
+    height: 10%;
+}
+
+.Correos p {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    background-color: #181818;
+    margin-left: 25%;
+}
+
+.Registro img {
+    width: 24px;
+    height: 25px;
+    margin-right: 5%;
+    cursor: pointer;
+    /* background-color: #9ebcae; */
+}
+
+hr {
+    margin-top: 5%;
+    width: 50%;
+    background-color: #9ebcae;
+}
+
+.Registro {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: red; */
+}
+
+p a {
+    color: #9ebcae;
+    cursor: pointer;
+}
+
+.imgModal {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0%;
+    margin: -9% 5%;
+    bottom: 0%;    
+    /* margin: 1%; */
+    /* background-image: url("../imgs/ZNeb.gif"); */
+    background-size: cover;
+}

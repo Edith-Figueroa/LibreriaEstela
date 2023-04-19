@@ -65,10 +65,6 @@ function Visuzalizar(ID){
     location.href = "index.php?page=Mnt-visualizar&Libro=" + ID;
 }
 
-function VisorPDF(){
-    location.href = "index.php?page=mnt_visorpdf";
-}
-
 function IrAtras(){
     location.href = "javascript:history.go(-1)";
 }

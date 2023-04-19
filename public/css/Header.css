@@ -320,6 +320,25 @@ svg:hover,
     height: auto;
 }
 
+.ContenedorImagen2 {
+    width: 50%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    transition: all 800ms;
+    background-image: url('../imgs/registro.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.ContenedorImagen2 img {
+    width: auto;
+    height: auto;
+}
 .ContenedorFormulario {
     width: 50%;
     height: 80%;

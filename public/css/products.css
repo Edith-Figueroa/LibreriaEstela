@@ -98,6 +98,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     padding: 2%;
+    text-align: center;
 }
 
 .txtID,
@@ -110,6 +111,7 @@ input[type=number] {
     margin: 0% 2%;
     color: white;
     background-color: transparent;
+    
 }
 
 .txtID2 {

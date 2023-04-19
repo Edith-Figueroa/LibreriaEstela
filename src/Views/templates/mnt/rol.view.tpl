@@ -3,6 +3,7 @@
 
     <form action="index.php?page=mnt_rol" method="post">
         <input type="hidden" name="mode" value="{{mode}}" />
+        <input type="hidden" name="crsf_token" value="{{crsf_token}}"/> 
         <input type="hidden" name="crsf_token" value="{{crsf_token}}"/>            
 
         <div class="Box1">
@@ -95,9 +96,23 @@
                 </tbody>
             </table>
         </div>
+         
     </form>
 
+    <div class="Box1">
+            <h1>Notas de Uso</h1>
+            <table style="width: 100%; border-radius: 15px;">
+                <thead style="text-align: center; width: 300px; width: 300px;">
+                    <tr>
+                        <p>SE DEBE CREAR EL ROL PRIMERO</p>
+                        <p>LUEGO SE LE DAN LOS PRIVILEGIOS DE USUARIO</p>
+                    </tr>
+                </thead>
+                
+            </table>
 
+    </div>
+    </form>
 
 </section>
 

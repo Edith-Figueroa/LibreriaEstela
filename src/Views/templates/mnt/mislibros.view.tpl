@@ -5,6 +5,7 @@
         {{endfor CantidadLibros}}
     </div>
     <div class="Caja2">
+        <a href="index.php?page=mnt-index">Buscar mas Libros</a>
         <a href="index.php?page=mnt-index">Expande tu bliblioteca</a>
         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" style="margin-right: 5%;" onclick="location.href='index.php?page=mnt-index'"><path d="m12 10-1.4-1.4L12.175 7H8V5h4.175l-1.6-1.6L12 2l4 4ZM7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM1 4V2h3.275l4.25 9h7l3.9-7H21.7l-4.4 7.95q-.275.5-.738.775Q16.1 13 15.55 13H8.1L7 15h12v2H7q-1.125 0-1.713-.975-.587-.975-.037-1.975L6.6 11.6 3 4Z"/></svg>
     </div>
@@ -13,6 +14,7 @@
 <section class="Detalle">
     <div class="BoxSvg">
         <p>Mis Libros</p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="Libros()"><path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="MoverTotal()"><path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z"/></svg>
     </div>
 
@@ -68,6 +70,7 @@
                 <p id="txtPublicacion">{{Fecha}}</p>
             </div>            
         </div>
+
         <div class="OpcionesBox">
             <label for="Leer">Leer Libro</label>
             <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" onclick="VisorPDF()"><path d="M24 40q-2.4-1.9-5.2-2.95Q16 36 13 36q-2.1 0-4.125.55T5 38.1q-1.05.55-2.025-.05Q2 37.45 2 36.3V12.2q0-.55.275-1.05t.825-.75q2.3-1.2 4.8-1.8Q10.4 8 13 8q2.9 0 5.675.75T24 11v25.3q2.55-1.65 5.35-2.475Q32.15 33 35 33q1.8 0 3.925.35T43 34.8V9.55q.5.2.975.4t.925.45q.5.3.8.775.3.475.3 1.025v24.1q0 1.15-.975 1.75-.975.6-2.025.05-1.85-1-3.875-1.55T35 36q-3 0-5.8 1.05T24 40Zm3-8.35V14L40 1v19.35Zm-6 3.15V12.85q-1.7-.95-3.95-1.4Q14.8 11 13 11q-2.35 0-4.375.5T5 12.8v22q1.75-.85 3.775-1.325T13.05 33q2.2 0 4.2.475T21 34.8Zm0 0V12.85Z"/></svg>

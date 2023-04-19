@@ -87,7 +87,6 @@
       <label for="Contenido" class="chkPublicidad">Mejorar Publicidad</label>
       <input type="checkbox" class="chkPublicidad" name="chkPublicidad" id="chkPublicidad" value="NOACT"
         onclick="PublicidadExtra()">
-
       <label for="Contenido">Portada</label>
       <input type="file" required {{if readonly}} disabled {{endif readonly}} name="image" id="image"
         class="pickerImg" />
@@ -101,6 +100,22 @@
       <button class="btnCancelar" name="btnCancelar" id="btnCancelar">Cancelar</button>
     </fieldset>
   </form>
+   <center>
+     <div class="Box1">
+            <h1>Notas de Uso</h1>
+            <table style="width: 100%; border-radius: 15px;">
+                <thead style="text-align: center; width: 300px; width: 300px;">
+                    <tr>
+                        <p>NO SE PERMITEN ACENTOS EN EL CONTENIDO DEL LIBRO</p>
+                        
+                    </tr>
+                </thead>
+                
+            </table>
+
+    </div>  
+   </center>
+
 </section>
 
 <script>

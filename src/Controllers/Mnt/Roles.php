@@ -12,6 +12,7 @@ class Roles extends PrivateController{
         
         $viewData["CanInsert"] = self::isFeatureAutorized("Controllers\Mnt\Roles\New");
         $viewData["CanUpdate"] = self::isFeatureAutorized("Controllers\Mnt\Roles\Upd");
+        $viewData["CanDelete"] = self::isFeatureAutorized("Controllers\Mnt\Roles\DEL");
         $viewData["CanDelete"] = self::isFeatureAutorized("Controllers\Mnt\Roles\Del");
         $viewData["CanView"] = self::isFeatureAutorized("Controllers\Mnt\Roles\Dsp");
 

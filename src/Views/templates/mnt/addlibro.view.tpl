@@ -83,7 +83,10 @@
         onclick="MostrarSegundaImagen()">
 
       <input type="file" name="image2" id="image2" class="pickerImg2">
-      
+
+      <label for="Contenido" class="chkPublicidad">Mejorar Publicidad</label>
+      <input type="checkbox" class="chkPublicidad" name="chkPublicidad" id="chkPublicidad" value="NOACT"
+        onclick="PublicidadExtra()">
       <label for="Contenido">Portada</label>
       <input type="file" required {{if readonly}} disabled {{endif readonly}} name="image" id="image"
         class="pickerImg" />
@@ -112,6 +115,7 @@
 
     </div>  
    </center>
+
 </section>
 
 <script>

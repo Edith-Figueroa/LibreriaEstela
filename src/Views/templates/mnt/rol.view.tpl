@@ -4,8 +4,7 @@
     <form action="index.php?page=mnt_rol" method="post">
         <input type="hidden" name="mode" value="{{mode}}" />
         <input type="hidden" name="crsf_token" value="{{crsf_token}}"/> 
-
-                 
+        <input type="hidden" name="crsf_token" value="{{crsf_token}}"/>            
 
         <div class="Box1">
             <fieldset style="position: absolute; left:0%; margin: 25% 5%">
@@ -112,7 +111,8 @@
                 
             </table>
 
-    </div>  
+    </div>
+    </form>
 
 </section>
 

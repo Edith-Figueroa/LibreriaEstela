@@ -14,7 +14,6 @@
       </th>
       </tr>
     </thead>
-   
     <tbody>
       {{foreach Roles}}
       <tr style="text-align: center;">

@@ -17,5 +17,37 @@ class Usuarios extends PrivateController{
     }
 }
 
+/*
+{
+    Usuarios: [],
+    CanInsert: true,
+    CanUpdate: true,
+    CanDelete: true,
+    CanView: true
+}
+
+withContext =
+root =
+{
+    Usuarios: [],
+    CanInsert: true,
+    CanUpdate: true,
+    CanDelete: true,
+    CanView: true
+}
+
+foreach Usuarios
+    withContext = Usuarios
+    
+    root =
+        {
+            Usuarios: [],
+            CanInsert: true,
+            CanUpdate: true,
+            CanDelete: true,
+            CanView: true
+        }
+endfor Usuarios
+*/
 
 ?>

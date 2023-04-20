@@ -20,7 +20,7 @@
     <div class="imgPortada3"></div>
 
     <div class="ContenidoPortada4">
-        <h1>Mundo Manga</h1>
+        <h1>Mangas</h1>
         <p>漫画世界</p>
         <input type="button" id="btnManga" onclick="Seccion3()" value="Descubrir Más">
         

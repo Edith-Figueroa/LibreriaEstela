@@ -40,7 +40,7 @@
             {{endif error_rolesest}}
         </div>
         <div class="Box1">
-            <h1>Funciones Del Rol</h1>
+            <h1>Funciones que se le daran al rol</h1>
             <table style="width: 100%; border-radius: 15px;">
                 <thead style="text-align: center; width: 300px; width: 300px;">
                     <tr>

@@ -5,6 +5,10 @@ namespace Dao\Mnt;
 use Dao\Table;
 use Monolog\Handler\WhatFailureGroupHandler;
 
+/**
+ * Clase base Para Libros
+ */
+
 class Libros extends Table
 {
     public static function getAll()

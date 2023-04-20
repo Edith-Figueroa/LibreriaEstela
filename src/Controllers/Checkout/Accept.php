@@ -25,7 +25,7 @@ class Accept extends PublicController{
             DaoHistorial::insert($ID, \Utilities\Security::getUserId());
             $dataview["orderjson"] = json_encode($result, JSON_PRETTY_PRINT);
             \Utilities\Site::redirectTo(
-                "http://localhost/ProyectoFinal/index.php?page=mnt_mislibros"
+                "http://localhost/LibreriaEstela/index.php?page=mnt_mislibros"
             );
             
         } else {

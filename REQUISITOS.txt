@@ -1,0 +1,35 @@
+Criterios y Requisitos del Proyecto Final
+El proyecto final que el equipo deberá presentar tiene como requisito lo siguiente:
+
+Usar como base el framework visto en clase aplicando los conceptos de MVC (simplePHPMvc)
+El proyecto debe se un negocio de los siguientes categorías: Productos Inventariables, 
+Servicio con capacidad limintada instalada o Productos Digitales.
+El proyecto debe contener un adecuado esquema de seguridad.
+El proyecto debe contener un catalogo de productos o servicios de acuerdo a todos los criterios vistos en clase.
+El proyecto debe manejar una carretilla de compra con todos los criterios visto en clase
+El proyecto debe SIMULAR una pasarela de pago y gardar la transacción realizada.
+El proyecto debe mostrar un histórico de las transacciones realizadas.
+
+
+El proyecto debe estar públicado en un repositorio en linea (github) accesible al público. 
+Se deberá entregar el docente todos el proyecto incluyendo un script de la estructura de la base de datos (export o dump) 
+y un archivo txt con los nombres y no de cuentas de los integrantes del equipo de desarrollo.
+
+El proyecto de se presentará en un periodo no mas de 15 minutos y 
+el docente seleccionará a un miembro del equipo para realizar la presentación. 
+
+
+
+Los Criterios de Evaluación son:
+
+1) Uso de MVC (20pts)
+
+2) Esquema de Seguridad (20 pts)
+
+3) Catalogo y Carrito de Compra (20 pts)
+
+4) Pasarela de Pagos (20 pts)
+
+5) Histórico de Transacciones por usuario (10 pts)
+
+6) Presentación del Proyecto  en vivo (10 pts)

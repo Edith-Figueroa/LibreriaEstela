@@ -47,7 +47,7 @@
         </div>
 
         <div class="Box3">
-            <h1>Roles Del Usuario</h1>
+            <h1>Rol Usuario</h1>
             <table style="width: 100%; border-radius: 15px;">
                 <thead style="text-align: center; width: 300px; width: 300px;">
                     <tr>
@@ -72,7 +72,7 @@
                     {{endfor RolesUsuario}}
                 </tbody>
             </table>
-            <h1>Roles Existentes del programa</h1>
+            <h1>Roles Existentes</h1>
             <table style="width: 100%; border-radius: 15px;">
                 <thead style="text-align: center; width: 300px; width: 300px;">
                     <tr>

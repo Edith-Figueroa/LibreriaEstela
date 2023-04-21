@@ -117,8 +117,8 @@ class Pasarela extends PublicController
             case 'ADD':
                 $PayPalOrder = new \Utilities\Paypal\PayPalOrder(
                     "test" . (time() - 10000000),
-                    "http://localhost/ProyectoFinal/index.php?page=mnt_index",
-                    "http://localhost/ProyectoFinal/index.php?page=checkout_accept"
+                    "http://localhost/LibreriaEstela/index.php?page=mnt_index",
+                    "http://localhost/LibreriaEstela/index.php?page=checkout_accept"
                 );
                 $Precio = $this->Libro[0]["Precio"];
                 $Precio = round($Precio / 24.23);
